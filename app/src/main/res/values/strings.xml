@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MediPast</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nameError">Please enter a valid name</string>
+    <string name="detailsError">Please enter valid details</string>
+    <string name="dateError">Please enter a valid date</string>
+    <string name="emailError">Please enter a valid email</string>
+    <string name="mobileError">Please enter a valid phone number</string>
+
+
+</resources>

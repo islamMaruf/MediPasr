@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/addDoctorId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:background="@color/colorPrimaryLight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:padding="5dp"
+                    android:id="@+id/popUpMenuTV"
+                    android:text=""
+                    android:drawableRight="@drawable/ic_more_vert_black_24dp"
+                    android:textStyle="bold"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_overlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/doctorNameTV"
+                    android:drawableStart="@drawable/ic_name_24dp"
+                    android:text=""/>
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_overlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/doctorDetailsTV"
+                    android:drawableStart="@drawable/ic_details1_24dp"
+                    android:text=""/>
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_overlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/doctorAppoinmentTV"
+                    android:drawableStart="@drawable/ic_date_black_24dp"
+                    android:text=""/>
+                <TextView
+                    android:drawablePadding="10dp"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black_overlay"
+                    android:id="@+id/doctorEmailTV"
+                    android:drawableStart="@drawable/ic_email_1_24dp"
+                    android:layout_weight=".7"
+                    />
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+                    <TextView
+                        android:drawablePadding="10dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/black_overlay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/doctorMobileTv"
+                        android:drawableStart="@drawable/ic_mobile_1_24dp"
+                        android:layout_weight=".7"
+                        />
+
+                    <TextView
+                        android:layout_width="232dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_weight="2.3"
+                        android:drawableRight="@drawable/ic_call_24dp"
+                        android:id="@+id/callActionTv"
+                        android:textColor="@color/black_overlay" />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
